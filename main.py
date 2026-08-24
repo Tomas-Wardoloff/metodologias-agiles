@@ -7,4 +7,5 @@ class Rover:
         return (self.posicion, self.orientacion)
 
     def rotar_orientacion(self):
-        pass
+        self.orientacion = "W"
+        return self.orientacion
