@@ -37,3 +37,6 @@ class Rover:
         elif self.orientacion == "W":
             self.posicion = (self.posicion[0] - 1, self.posicion[1])
         return self.posicion
+
+    def retroceder(self):
+        pass

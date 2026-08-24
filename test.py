@@ -17,3 +17,8 @@ def test_rover_avanza():
     assert rover2.avanzar() == (2, 1)
     assert rover2.avanzar() == (3, 1)
     assert rover2.avanzar() == (4, 1)
+
+def test_rover_retrocede():
+    rover = Rover()
+    rover.retroceder()
+    assert 0
