@@ -20,5 +20,4 @@ def test_rover_avanza():
 
 def test_rover_retrocede():
     rover = Rover()
-    rover.retroceder()
-    assert 0
+    assert rover.retroceder() == 0

@@ -39,4 +39,4 @@ class Rover:
         return self.posicion
 
     def retroceder(self):
-        pass
+        return 0
