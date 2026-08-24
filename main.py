@@ -25,5 +25,7 @@ class Rover:
         elif self.orientacion == "S" and giro == "R":
                 self.orientacion = "E"
         
-
         return self.orientacion
+
+    def avanzar(self):
+        pass  # Implementación pendiente

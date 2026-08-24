@@ -6,3 +6,8 @@ def test_informa_posicion_y_orientacion_iniciales():
 def test_rover_gira():
     assert Rover().rotar_orientacion("L") == "W"
     assert Rover().rotar_orientacion("R") == "E"
+
+def test_rover_avanza():
+    rover = Rover()
+    rover.avanzar()
+    assert 0
