@@ -28,4 +28,12 @@ class Rover:
         return self.orientacion
 
     def avanzar(self):
-        return 0
+        if self.orientacion == "N":
+            self.posicion = (self.posicion[0], self.posicion[1] + 1)
+        elif self.orientacion == "E":
+            self.posicion = (self.posicion[0] + 1, self.posicion[1])
+        elif self.orientacion == "S":
+            self.posicion = (self.posicion[0], self.posicion[1] - 1)
+        elif self.orientacion == "W":
+            self.posicion = (self.posicion[0] - 1, self.posicion[1])
+        return self.posicion
