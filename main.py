@@ -5,3 +5,6 @@ class Rover:
 
     def posicion_y_orientacion_iniciales(self):
         return (self.posicion, self.orientacion)
+
+    def rotar_orientacion(self):
+        pass
