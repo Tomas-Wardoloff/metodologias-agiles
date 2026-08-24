@@ -28,4 +28,4 @@ class Rover:
         return self.orientacion
 
     def avanzar(self):
-        pass  # Implementación pendiente
+        return 0

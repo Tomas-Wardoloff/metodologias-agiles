@@ -9,5 +9,4 @@ def test_rover_gira():
 
 def test_rover_avanza():
     rover = Rover()
-    rover.avanzar()
-    assert 0
+    assert rover.avanzar() == 0
